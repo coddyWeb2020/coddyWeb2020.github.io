@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #e8e8e8;
+	font-family: 'Turret Road', cursive;
+}
+
+.container{
+	width: 70%;
+	margin: auto; /*Размещаем div по центру*/
+	background-color: white;
+}
+
+.header{
+	height: 450px;
+	background-image: url(../img/1.jpg);
+	background-size: cover; /*Размер картинки*/
+	background-repeat: no-repeat; /*Повторение картинки*/
+}
+
+.header:hover{
+	background-image: url(../img/2.jpg);
+	opacity: 70%; /*Прозрачность*/
+}
+
+.header-h1{
+	text-align: center; /*По центру*/
+	font-size: 35px; /*Размер шрифта*/
+	letter-spacing: 10px; /*Расстояние между буквами*/
+	padding-top: 150px; /*Отступ сверху*/
+	text-shadow: white 1px 1px 3px; /*Тень*/
+}
+
+ul{
+	text-align: center; /*По центру*/
+	padding-top: 30px; /*Отступы*/
+	padding-bottom: 30px;
+	background-color: #f4f4f2; /*Цвет фона*/
+}
+
+li{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+li a:hover{
+	border-bottom: white 3px dotted;
+	color: white;
+}
+
+.content{
+	padding: 55px;
+	text-align: justify; /*Ровный текст со всех сторон*/
+}
+
+img{
+	height: 250px; /*Высота*/
+	float: left; /*Обтекание текстом*/
+	margin: 25px; /*Отступ*/
+	box-shadow: #e8e8e8 3px 2px 3px; /*Тень*/
+}
+
+h2{
+	font-size: 28px;
+	text-shadow: #e8e8e8 3px 2px 3px; /*Тень*/
+}
