@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	height: 100%;
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	/*Задать карнтинку на задний фон*/
+}
+
+.text-container{
+	/*ширина 40%*/
+	width: 40%;
+	/*Отступ слева -15%, сверху - 25%*/
+	padding-top: 20%;
+	padding-left: 15%;
+}
+
+.text-container h2{
+	/*размер шрифта*/
+	font-size: 26px;
+	/*Все буквы заглавные - text-transform*/
+	text-transform: uppercase;
+	/*цвет (opacity 80%)*/
+	opacity: 60%;
+	/*font-weight: bold - жирность*/
+	font-weight: bold;
+	/*Расстояние между буквами - 1-2px*/
+}
+
+.text-container h1{
+	font-size: 58px;
+}
+
+.text-container p, .footer p{/******/
+	font-size: 14px;
+	opacity: 80%;
+}
+
+.text-container h2,p, h1 {
+	color: white;
+	letter-spacing: 2px;
+}
+
+/*Footer*/
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 40%;
+	background-image: url(../img/footer.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.footer h2{
+	display: block;
+	width: 120px;
+	color: white;
+	font-size: 20px;
+	padding: 5px 10px;
+	border: 1px solid white;
+	margin-bottom: 30px;
+	font-weight: normal; /*400*/
+}
+
+.footer p{
+	display: block;
+	width: 70%;
+	text-align: center;
+}
+
+
+/*Gallery*/
